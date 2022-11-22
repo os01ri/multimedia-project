@@ -228,6 +228,64 @@ main button:hover {
 /******************/
 /** start footer **/
 /***** karbik *****/
+footer {
+    background-color: #232323;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer h5 {
+    color: var(--first-color);
+    position: absolute;
+    top: 0;
+    left: 30px;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.footer ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul a:hover {
+    color: var(--first-color);
+    text-decoration: none;
+}
+
+.footer ul li {
+    padding-top: 25px;
+
+}
+
+.footer ul.social li {
+    padding-top: 15px;
+}
 /******************/
 
 
