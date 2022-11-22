@@ -15,7 +15,82 @@
 /***** raneem *****/
 /******************/
 
+header {
+    background-image: url(../photo/IMG_20221026_095337_909.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 657px;
+    background-color: #232323;
+}
 
+.navbar-nav {
+    margin-left: 50%;
+    font-size: 18px;
+
+}
+
+.navbar-toggler {
+    color: #fff;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--first-color);
+}
+
+.navbar-brand {
+    color: var(--first-color);
+
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.text h1 {
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.text h1:first-child {
+    color: var(--first-color);
+}
+
+.text p {
+    margin: 15px 0 45px 0;
+}
+
+.text h1,
+.text p {
+    color: #fff;
+}
+
+.text button {
+    background-color: var(--first-color);
+    color: #232323;
+    border: none;
+    padding: 8px 25px;
+    font-size: 18px;
+}
+
+.icon {
+    margin-top: 90px;
+}
+
+.icon svg {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
 
 /******************/
 /*** end header ***/
