@@ -218,7 +218,65 @@ main button:hover {
 /*** START NEWS ***/
 /***** mawaldi ****/
 /******************/
+.news {
 
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 40px;
+
+}
+
+.news .prod {
+
+    width: 30%;
+
+    position: relative;
+
+}
+
+.news .prod img {
+
+    width: 100%;
+
+    height: 400px;
+
+    transition: all 0.5s;
+
+    border-radius: 20px;
+
+}
+
+.news .prod .sup-title {
+
+    background-color: #232323;
+
+    color: #fff;
+
+    width: fit-content;
+
+    position: absolute;
+
+    top: 56%;
+
+    left: 80px;
+
+}
+
+.news .prod .sup-title p {
+
+    padding: 15px 35px 0px 35px;
+
+}
+
+.news .prod .trend {
+
+    margin-top: 40px;
+
+    text-align: left;
+
+}
 
 
 /******************/
