@@ -13,6 +13,7 @@
 /******************/
 /** start header **/
 /******************/
+
 header {
     background-image: url(../photo/IMG_20221026_095337_909.jpg);
     background-size: contain;
@@ -87,6 +88,7 @@ header {
     font-size: 20px;
     margin-left: 10px;
 }
+
 /******************/
 /*** end header ***/
 /******************/
@@ -94,6 +96,7 @@ header {
 /********************/
 /** start category **/
 /********************/
+
 main {
     text-align: center;
     margin-top: 70px;
@@ -116,7 +119,6 @@ main hr {
     width: 30%;
     position: relative;
 }
-
 
 .category .comp img,
 .category .prod img {
@@ -186,6 +188,7 @@ main button:hover {
 .category .comp .title p {
     color: #fff;
 }
+
 /******************/
 /** END CATEGORY **/
 /******************/
@@ -193,6 +196,7 @@ main button:hover {
 /******************/
 /*** START SHOP ***/
 /******************/
+
 .shop {
     display: flex;
     margin-top: 50px;
@@ -229,6 +233,7 @@ main button:hover {
     color: #fff;
     border: none;
 }
+
 /****************/
 /*** END SHOP ***/
 /****************/
@@ -236,6 +241,7 @@ main button:hover {
 /******************/
 /*** START NEWS ***/
 /******************/
+
 .news {
     display: flex;
     justify-content: space-between;
@@ -271,6 +277,7 @@ main button:hover {
     margin-top: 40px;
     text-align: left;
 }
+
 /******************/
 /**** END NEWS ****/
 /******************/
@@ -278,6 +285,7 @@ main button:hover {
 /******************/
 /** start footer **/
 /******************/
+
 footer {
     background-color: #232323;
     color: #fff;
@@ -332,6 +340,7 @@ footer p {
 .footer ul.social li {
     padding-top: 15px;
 }
+
 /********************/
 /**** END FOOTER ****/
 /********************/
