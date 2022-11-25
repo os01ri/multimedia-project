@@ -12,9 +12,7 @@
 
 /******************/
 /** start header **/
-/***** raneem *****/
 /******************/
-
 header {
     background-image: url(../photo/IMG_20221026_095337_909.jpg);
     background-size: contain;
@@ -27,7 +25,6 @@ header {
 .navbar-nav {
     margin-left: 50%;
     font-size: 18px;
-
 }
 
 .navbar-toggler {
@@ -47,7 +44,6 @@ header {
 
 .navbar-brand {
     color: var(--first-color);
-
 }
 
 .text {
@@ -91,20 +87,16 @@ header {
     font-size: 20px;
     margin-left: 10px;
 }
-
 /******************/
 /*** end header ***/
 /******************/
 
 /********************/
 /** start category **/
-/****** osama *******/
 /********************/
-
 main {
     text-align: center;
     margin-top: 70px;
-
 }
 
 main hr {
@@ -117,14 +109,12 @@ main hr {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-
 }
 
 .category .comp,
 .category .prod {
     width: 30%;
     position: relative;
-
 }
 
 
@@ -148,7 +138,6 @@ main hr {
     padding: 20px 0 0 0;
     bottom: -20px;
     cursor: pointer;
-
 }
 
 .category .prod .sup-title {
@@ -197,95 +186,98 @@ main button:hover {
 .category .comp .title p {
     color: #fff;
 }
-
 /******************/
 /** END CATEGORY **/
 /******************/
 
 /******************/
 /*** START SHOP ***/
-/**** mohammad ****/
 /******************/
+.shop {
+    display: flex;
+    margin-top: 50px;
+    background-color: #232323;
+}
 
+.shop .left {
+    width: 40%;
+    height: 100%;
+}
 
+.shop .left img {
+    width: 100%;
+    height: 100%;
+}
 
+.shop .right {
+    color: #fff;
+    padding: 50px 150px;
+}
 
+.shop .right span {
+    color: var(--first-color);
+}
+
+.shop .right input {
+    padding: 3px 10px;
+}
+
+.shop .right .submit {
+    margin-top: 30px;
+    padding: 5px 10px;
+    background-color: var(--first-color);
+    color: #fff;
+    border: none;
+}
 /****************/
 /*** END SHOP ***/
 /****************/
 
 /******************/
 /*** START NEWS ***/
-/***** mawaldi ****/
 /******************/
 .news {
-
     display: flex;
-
     justify-content: space-between;
-
     margin-top: 40px;
-
 }
 
 .news .prod {
-
     width: 30%;
-
     position: relative;
-
 }
 
 .news .prod img {
-
     width: 100%;
-
     height: 400px;
-
     transition: all 0.5s;
-
     border-radius: 20px;
-
 }
 
 .news .prod .sup-title {
-
     background-color: #232323;
-
     color: #fff;
-
     width: fit-content;
-
     position: absolute;
-
     top: 56%;
-
     left: 80px;
-
 }
 
 .news .prod .sup-title p {
-
     padding: 15px 35px 0px 35px;
-
 }
 
 .news .prod .trend {
-
     margin-top: 40px;
-
     text-align: left;
-
 }
-
-
 /******************/
 /**** END NEWS ****/
 /******************/
 
 /******************/
 /** start footer **/
-/***** karbik *****/
+/******************/
 footer {
     background-color: #232323;
     color: #fff;
@@ -298,12 +290,10 @@ footer p {
     margin: 0;
 }
 
-
 .footer {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
-
 }
 
 .footer div {
@@ -323,7 +313,6 @@ footer p {
 .footer ul {
     list-style: none;
     margin-top: 20px;
-
 }
 
 .footer ul a {
@@ -338,16 +327,11 @@ footer p {
 
 .footer ul li {
     padding-top: 25px;
-
 }
 
 .footer ul.social li {
     padding-top: 15px;
 }
-/******************/
-
-
-
 /********************/
 /**** END FOOTER ****/
 /********************/
