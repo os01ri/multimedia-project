@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all photo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body onload="onload()">
+    <!-- add modal -->
+    <div id="modal__add" class="modal">
+        <div class="modal-content">
+            <ul class="add__element">
+                <li class="add__header">
+                    <h1>Add A New Fashion</h1>
+                </li>
+
+                <li><input class="input" id="name" type="text" placeholder="Fashion Name" /></li>
+                <li><input class="input" id="category" type="text" placeholder="Fashion Category" /></li>
+                <li><input class="input" id="price" type="number" placeholder="Fashion Price" /></li>
+                <li><input type="file" class="imageFile" id="imageFile" accept="image/*" /></li>
+
+                <button class="close__button" id="close_modal">Close</button>
+                <button class="create__button" id="createbtn">Create</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Detail Modal -->
+    <div id="detail-modal" class="detail-modal">
+        <div class="modal-content">
+            <ul class="add__element">
+                <li class="add__header">
+                    <h1>Add A New Fashion</h1>
+                </li>
+                <li><img id="fashion_image" src="" alt=""> </li>
+
+                <li><input class="input" id="fashion_name" type="text" placeholder="Fashion Name" disabled /></li>
+                <li><input class="input" id="fashion_category" type="text" placeholder="Fashion Category"></li>
+                <li><input class="input" id="fashion_price" type="number" placeholder="Fashion Price" /></li>
+
+                <li>
+                    <button class="close__button" id="close_detail_modal">Close</button>
+                    <button class="close__button" id="delete_detail_modal">Delete</button>
+                    <button class="create__button" id="update_detail_modal">Update</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="show-modal"><i class="fa-solid fa-add"></i></div>
+
+    <div class="photo-container pt-3 pb-3">
+        <div class="container">
+            <div class="row gap-3 justify-content-center"></div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/fashion.js"></script>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script>
+        Parse.initialize(
+            "2MPlRBvMLnRWsLMQEq1yi32SOeudKvAlc7ORYYgH",
+            "Wn1mejJGDjDxIhRnBmbVvye3ZUqqiCb56h5SCtzh"
+        ); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+        Parse.serverURL = "https://parseapi.back4app.com/";
+    </script>
+</body>
+
+</html>

@@ -1,40 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fashion</title>
+  <title>Tango</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
   <link rel="stylesheet" href="css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <!-- /////////////// -->
-  <!-- ////header //// -->
-  <!-- /////////////// -->
-  <header>
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">ZIZO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#CATEGORIS">CATEGORIS</a>
-            <a class="nav-item nav-link" href="#TREND">TREND</a>
-            <a class="nav-item nav-link" href="#SHOP">SHOP</a>
-            <a class="nav-item nav-link" href="#NEWS">NEWS</a>
-            <a class="nav-item nav-link" href="#CONTACT">CONTACT</a>
-          </div>
-        </div>
-      </nav>
+      <a class="navbar-brand" href="#">Tango</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars toogle-bar"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#header">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#CATEGORIS">CATEGORIS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#TREND">TREND</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#SHOP">SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#NEWS">NEWS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main id="header">
+    <div class="container">
       <div class="text">
         <h1>CASUAL</h1>
         <h1>COLLECTION</h1>
@@ -48,31 +56,28 @@
         <a href="#"><i class="fa fa-star"></i></a>
       </div>
     </div>
-  </header>
+  </main>
 
-  <!-- //////////////// -->
-  <!-- ///categories/// -->
-  <!-- //////////////// -->
   <main id="CATEGORIS" class="discover-container">
     <div class="container">
       <h3>CATEGORY</h3>
       <hr>
-      <div class="category">
-        <div class="comp">
+      <div class="category row">
+        <div class="comp col-sm-12 col-md-6 col-lg-4">
           <img src="photo/IMG_20221026_094954_945.jpg" alt="">
           <div class="title">
             <h4>MAN</h4>
             <p>collection</p>
           </div>
         </div>
-        <div class="comp">
+        <div class="comp col-sm-12 col-md-6 col-lg-4">
           <img src="photo/IMG_20221026_095136_114.jpg" alt="">
           <div class="title">
             <h4>WOMAN</h4>
             <p>collection</p>
           </div>
         </div>
-        <div class="comp">
+        <div class="comp col-sm-12 col-md-6 col-lg-4">
           <img src="photo/cc7c5655d30e36396aabffed5f3e01ec.jpg" alt="">
           <div class="title">
             <h4>KIDS</h4>
@@ -83,28 +88,26 @@
     </div>
   </main>
 
-  <!-- //////////////// -->
-  <!-- ////TREND/////// -->
-  <!-- //////////////// -->
   <main id="TREND">
     <div class="container">
       <h3>TOP PRODUCT</h3>
       <hr>
-      <div class="category">
-        <div class="prod">
+      <div class="category row">
+        <div class="prod col-sm-12 col-md-6 col-lg-4">
           <img src="photo/mariabeatrice-alonzi-VyI0GBHSsJ8-unsplash.jpg" alt="">
           <div class="sup-title">
             <h6>MAN</h6>
             <span>$75.13</span>
           </div>
         </div>
-        <div class="prod"> <img src="photo/erik-mclean--iJgjj33eEk-unsplash.jpg" alt="">
+        <div class="prod col-sm-12 col-md-6 col-lg-4">
+          <img src="photo/erik-mclean--iJgjj33eEk-unsplash.jpg" alt="">
           <div class="sup-title">
             <h6>WOMAN</h6>
             <span>$50.99</span>
           </div>
         </div>
-        <div class="prod">
+        <div class="prod col-sm-12 col-md-6 col-lg-4">
           <img src="photo/alex-haigh-fEt6Wd4t4j0-unsplash.jpg" alt="">
           <div class="sup-title">
             <h6>KIDS</h6>
@@ -112,14 +115,11 @@
           </div>
         </div>
       </div>
-      <button>click me</button>
+      <button><a href="photo.html" target="_blank">More...</a></button>
     </div>
   </main>
 
-  <!-- //////////////// -->
-  <!-- /////SHOP/////// -->
-  <!-- //////////////// -->
-  <section id="SHOP">
+  <main id="SHOP">
     <div class="shop">
       <div class="left">
         <img src="photo/girl.jpg" alt="">
@@ -131,17 +131,14 @@
         <input type="submit" class="submit">
       </div>
     </div>
-  </section>
+  </main>
 
-  <!-- /////////////// -->
-  <!-- /////NEWS ///// -->
-  <!-- /////////////// -->
   <main id="NEWS">
     <div class="container">
       <h3>LATEST NEWS</h3>
       <hr>
-      <div class="news">
-        <div class="prod">
+      <div class="news row">
+        <div class="prod col-sm-12 col-md-6 col-lg-4">
           <img src="photo/mariabeatrice-alonzi-VyI0GBHSsJ8-unsplash.jpg" alt="">
           <div class="sup-title">
             <p>fashion 10.000</p>
@@ -153,7 +150,8 @@
               optio.</p>
           </div>
         </div>
-        <div class="prod"> <img src="photo/erik-mclean--iJgjj33eEk-unsplash.jpg" alt="">
+        <div class="prod col-sm-12 col-md-6 col-lg-4">
+          <img src="photo/erik-mclean--iJgjj33eEk-unsplash.jpg" alt="">
           <div class="sup-title">
             <p>fashion 10.000</p>
           </div>
@@ -164,7 +162,7 @@
               optio.</p>
           </div>
         </div>
-        <div class="prod">
+        <div class="prod col-sm-12 col-md-6 col-lg-4">
           <img src="photo/alex-haigh-fEt6Wd4t4j0-unsplash.jpg" alt="">
           <div class="sup-title">
             <p>fashion 10.000</p>
@@ -180,9 +178,6 @@
     </div>
   </main>
 
-  <!-- /////////////// -->
-  <!-- ////CONTACT //// -->
-  <!-- /////////////// -->
   <footer id="CONTACT">
     <div class="container">
       <div class="footer">
@@ -214,25 +209,34 @@
         </div>
         <div>
           <ul class="social">
-            <li><a href=""><i class="fa fa-star"></i></a></li>
-            <li><a href=""><i class="fa fa-star"></i></a></li>
-            <li><a href=""><i class="fa fa-star"></i></a></li>
-            <li><a href=""><i class="fa fa-star"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-snapchat"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
-    <P>copyright, zizo.ltd 2022</P>
+    <P>copyright,FASHION 2022</P>
   </footer>
 
-  <!-- /////////////// -->
-  <!-- /////////////// -->
-  <!-- /////////////// -->
   <a href="#" class="scrollup" id="scroll-up">
     <i class="fa fa-arrow-up scrollup-icon"></i>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/fashion.js"></script>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+    <script>
+      Parse.initialize(
+        "2MPlRBvMLnRWsLMQEq1yi32SOeudKvAlc7ORYYgH",
+        "Wn1mejJGDjDxIhRnBmbVvye3ZUqqiCb56h5SCtzh"
+      ); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+      Parse.serverURL = "https://parseapi.back4app.com/";
+    </script>
+
 </body>
 
 </html>
