@@ -484,6 +484,18 @@ ul {
        opacity: 1;
 }
 
+@media screen and (max-width: 768px) {
+       .footer ul.social li {
+              padding-top: 15px;
+              display: inline-block;
+              justify-content: center;
+              margin-left: 55px;
+              font-size: x-large;
+
+
+       }
+}
+
 /*show scroll*/
 .show-scroll {
        bottom: 5rem;
